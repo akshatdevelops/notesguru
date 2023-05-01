@@ -1,6 +1,43 @@
 .App {
   text-align: center;
 }
+/* Add this CSS to your global styles */
+
+body {
+  background-color: #f5f5f5; /* Set a light background color */
+  color: #333; /* Set a dark text color */
+}
+
+.dark-mode {
+  background-color: #333; /* Set a dark background color */
+  color: #f5f5f5; /* Set a light text color */
+}
+
+/* Style your button however you'd like */
+button {
+  padding: 10px;
+  background-color: #333;
+  color: #f5f5f5;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+/* Style your notes container however you'd like */
+.notes-container {
+  border: 1px solid #ccc;
+  padding: 10px;
+  margin-top: 20px;
+}
+
+/* Add this CSS to your media queries to adjust your styles for smaller screens */
+
+@media screen and (max-width: 768px) {
+  body {
+    font-size: 14px;
+  }
+}
+
 
 .App-logo {
   height: 40vmin;
